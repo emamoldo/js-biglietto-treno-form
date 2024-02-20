@@ -1,0 +1,56 @@
+:root{
+    --tiket-body: #b91450;
+    --tiket-title: #ffffff;
+    --tiket-jumbo-bg: #ffffff;
+    --tiket-jumbo-title-text: #b91450;
+    --tiket-jumbo-text: #000101;
+    --tiket-btn-text: #b91450;
+    --tiket-btn-bgc: #cccccc;
+    --tiket-main-title: #ffffff;
+    --tiket-name-bgc: #808181;
+    --tiket-main-text: #000101;
+}
+
+body{
+    background-color: var(--tiket-body);
+}
+
+h1{
+    color: var(--tiket-title);
+}
+
+/* Jumbo Css Part*/
+.jumbo{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Jumbo Container Css Part*/
+.jumbo_container{
+    background-color: var(--tiket-jumbo-bg);
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    border-radius: 20px;
+}
+
+.name, .km, .age{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--tiket-jumbo-title-text);
+}
+
+#age_selector{
+    height: 20px;
+    width: 150px;
+}
+
+
+/* /Jumbo Container Css Part*/
+/* /Jumbo Css Part*/
