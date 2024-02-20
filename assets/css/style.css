@@ -8,6 +8,7 @@
     --tiket-btn-bgc: #cccccc;
     --tiket-main-title: #ffffff;
     --tiket-name-bgc: #808181;
+    --tiket-main-bgc:#ffffff;
     --tiket-main-text: #000101;
 }
 
@@ -19,24 +20,33 @@ h1{
     color: var(--tiket-title);
 }
 
-/* Jumbo Css Part*/
+/* Jumbo Css Part */
 .jumbo{
     width: 900px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 4rem;
 }
 
-/* Jumbo Container Css Part*/
+/* Jumbo Container Css Part */
 .jumbo_container{
     background-color: var(--tiket-jumbo-bg);
-    height: 200px;
     width: 1000px;
+    border-radius: 20px;
+}
+
+.jumbo_container .form_container {
     display: flex;
     justify-content: center;
     gap: 4rem;
-    border-radius: 20px;
+}
+
+.jumbo_container .btn_container {
+    padding:2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .name, .km, .age{
@@ -51,6 +61,38 @@ h1{
     width: 150px;
 }
 
+.generate, .cancel{
+    color: var(--tiket-btn-text);
+    background-color: var(--tiket-btn-bgc);
+}
+/* /Jumbo Container Css Part */
+/* /Jumbo Css Part */
 
-/* /Jumbo Container Css Part*/
-/* /Jumbo Css Part*/
+/*  Main Css Part */
+.main{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*  Main Container Css Part */
+.main_container{
+    width: 1000px;
+    height: 200px;
+    background-color: var(--tiket-main-bgc);
+    padding-left: 2rem;
+}
+
+#name{
+    height: 100px;
+    background-color: var(--tiket-name-bgc);
+    padding: 0.5rem;
+}
+.info_tiket{
+    display: flex;
+    gap: 2rem;
+}
+/* /Main Container Css Part */
+/* /Main Css Part */
+

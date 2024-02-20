@@ -13,58 +13,57 @@
     <div class="jumbo">
         <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
         <div class="jumbo_container">
-            <div class="name">
-                <p id="name">Nome e Cognome</p>
-                <input type="text">
-            </div>
+            <div class="form_container">
+                <div class="name">
+                    <p>Nome e Cognome</p>
+                    <input type="text">
+                </div>
 
-            <div class="km">
-                <p id="km">Km da percorrere</p>
-                <input type="text">
-            </div>
+                <div class="km">
+                    <p>Km da percorrere</p>
+                    <input type="text">
+                </div>
 
-            <div class="age">
-                <p id="age">Fascia d'età</p>
-                <select name="age" id="age_selector">
-                    <option value="opt1">Dicci la tua età</option>
-                    <option value="opt1">Minorenne</option>
-                    <option value="opt1">Maggiorenne</option>
-                    <option value="opt1">Over 65</option>
-                </select>
+                <div class="age">
+                    <p>Fascia d'età</p>
+                    <select name="age" id="age_selector">
+                        <option value="opt1">Dicci la tua età</option>
+                        <option value="opt1">Minorenne</option>
+                        <option value="opt1">Maggiorenne</option>
+                        <option value="opt1">Over 65</option>
+                    </select>
+                </div>
             </div>    
-        </div>
-        
-        <div class="button">
-            <button type="button">Genera</button>
-            <button type="button">Annulla</button>
+
+            <div class="btn_container">
+                <div class="button">
+                    <button type="button" class="generate">Genera</button>
+                    <button type="button" class="cancel">Annulla</button>
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- /Jumbo Part-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--  Main Part-->
+    <div class="main">
+        <h1>IL TUO BIGLIETTO</h1>
+        <div class="main_container">
+            <h3>DETTAGLIO PASSEGGERI</h3>
+            <div class="info_tiket">
+                <div id="name">
+                    <strong>NOME PASSEGGERO</strong>
+                    <br>
+                    <strong class="value_Name"></strong>
+                </div>
+                <strong>Offerta</strong>
+                <strong>Carrozza</strong>
+                <strong>Codice CP</strong>
+                <strong>Costo Biglietto</strong>
+            </div>
+        </div>
+    </div>
     <!-- /Main Part-->
     <script src="./assets/js/main.js"></script>
 </body>
