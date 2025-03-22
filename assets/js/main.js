@@ -53,6 +53,7 @@ button_genera.addEventListener('click', function () {
     document.querySelector('#prezzo .price').innerHTML = price + '€';
     document.querySelector('#carrozza .value_Carrozza').innerHTML = carrozza;
     document.querySelector('#codice .value_Code').innerHTML = codice_Cp;
+    // document.querySelector('#offerf .value_Offer').innerHTML = value_Offer;
 });
 
 
